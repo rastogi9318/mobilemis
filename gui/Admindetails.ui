@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindow</class>
+ <widget class="QMainWindow" name="MainWindow">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>800</width>
+    <height>600</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>MainWindow</string>
+  </property>
+  <widget class="QWidget" name="centralwidget"/>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>800</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menuDetails">
+    <property name="title">
+     <string>Details</string>
+    </property>
+    <addaction name="actionBrand_Details"/>
+    <addaction name="actionModel_Details"/>
+    <addaction name="actionSale_Details"/>
+    <addaction name="actionLogIn_Details"/>
+   </widget>
+   <addaction name="menuDetails"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="actionBrand_Details">
+   <property name="text">
+    <string>Brand Details</string>
+   </property>
+  </action>
+  <action name="actionModel_Details">
+   <property name="text">
+    <string>Model Details</string>
+   </property>
+  </action>
+  <action name="actionSale_Details">
+   <property name="text">
+    <string>Sale Details</string>
+   </property>
+  </action>
+  <action name="actionLogIn_Details">
+   <property name="text">
+    <string>LogIn Details</string>
+   </property>
+  </action>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

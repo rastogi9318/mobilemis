@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>807</width>
+    <height>591</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Frame{background-color: rgb(137, 101, 255);}
+font: 12pt &quot;Kristen ITC&quot;;
+</string>
+  </property>
+  <widget class="QTableWidget" name="tbl">
+   <property name="geometry">
+    <rect>
+     <x>10</x>
+     <y>150</y>
+     <width>791</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="showGrid">
+    <bool>true</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>TransactionId</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Model Number</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Quantity</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Customer Name</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Email</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Address</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Phone no</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Date</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>300</x>
+     <y>80</y>
+     <width>281</width>
+     <height>51</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Algerian&quot;;</string>
+   </property>
+   <property name="text">
+    <string>Sales Details</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>690</x>
+     <y>561</y>
+     <width>101</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  Mobo Software</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

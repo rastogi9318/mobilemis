@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Frame</class>
+ <widget class="QFrame" name="Frame">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>685</width>
+    <height>538</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Frame</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">QWidget#Frame{background-color: rgb(137, 101, 255);}
+font: 12pt &quot;Kristen ITC&quot;;
+</string>
+  </property>
+  <widget class="QTableWidget" name="tbl">
+   <property name="geometry">
+    <rect>
+     <x>170</x>
+     <y>100</y>
+     <width>301</width>
+     <height>361</height>
+    </rect>
+   </property>
+   <property name="showGrid">
+    <bool>true</bool>
+   </property>
+   <column>
+    <property name="text">
+     <string>UserId</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Password</string>
+    </property>
+   </column>
+   <column>
+    <property name="text">
+     <string>Usertype</string>
+    </property>
+   </column>
+  </widget>
+  <widget class="QLabel" name="label">
+   <property name="geometry">
+    <rect>
+     <x>250</x>
+     <y>20</y>
+     <width>221</width>
+     <height>61</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 16pt &quot;Algerian&quot;;</string>
+   </property>
+   <property name="text">
+    <string>LogIn Details</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="label_2">
+   <property name="geometry">
+    <rect>
+     <x>570</x>
+     <y>512</y>
+     <width>101</width>
+     <height>21</height>
+    </rect>
+   </property>
+   <property name="styleSheet">
+    <string notr="true">font: 10pt &quot;MS Shell Dlg 2&quot;;</string>
+   </property>
+   <property name="text">
+    <string>  Mobo Software</string>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
